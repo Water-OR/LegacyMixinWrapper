@@ -1,0 +1,11 @@
+[versions]
+shadow = "8.3.8"
+mixin-extras = "0.4.1"
+mixin-fabric = "0.16.1+mixin.0.8.7"
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
+
+[libraries]
+mixin-fabric = { group = "net.fabricmc", name = "sponge-mixin", version.ref = "mixin-fabric" }
+mixin-extras-common = { group = "io.github.llamalad7", name = "mixinextras-common", version.ref = "mixin-extras" }
