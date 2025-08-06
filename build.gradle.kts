@@ -18,6 +18,9 @@ java {
 }
 
 repositories {
+    maven("https://maven.fabricmc.net/") {
+        content { includeGroup("net.fabricmc") }
+    }
     mavenCentral()
 }
 
